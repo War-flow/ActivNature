@@ -6,11 +6,6 @@
     height: 200px;
     background-color: indigo;
   }
-  nav {
-    height: 80px;
-    background-color: darkblue;
-  }
-
 aside {
   height: auto;
   background-color: darkgray;
@@ -54,11 +49,6 @@ footer {
     height: 200px;
     background-color: indigo;
   }
-  nav {
-    height: 80px;
-    background-color: darkblue;
-  }
-
 aside {
   height: auto;
   background-color: darkgray;

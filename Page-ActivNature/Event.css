@@ -7,8 +7,7 @@
     background-color: indigo;
   }
   nav {
-    height: 80px;
-    background-color: darkblue;
+    width: 100%;
   }
 
 .article {
@@ -39,8 +38,7 @@
     background-color: indigo;
   }
   nav {
-    height: 80px;
-    background-color: darkblue;
+    width: 100%;
   }
 
 .article {
