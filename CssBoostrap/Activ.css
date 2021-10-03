@@ -1,8 +1,85 @@
-header {
-  height: 200px;
-  background-color: burlywood;
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  header {
+    height: 200px;
+    background-color: indigo;
+  }
+  nav {
+    height: 80px;
+    background-color: darkblue;
+  }
+
+aside {
+  height: auto;
+  background-color: darkgray;
 }
 
-.logo, .badge {
-  background-color: aqua;
+.article1, .article2, .article3 {
+  height: 200px;
+  background-color: deeppink;
+}
+
+.article4 {
+  height: 400px;
+  background-color: greenyellow;
+}
+
+footer {
+  height: 200px;
+  background-color: khaki;
+
+}
+  .logo, .badge {
+    background-color: chartreuse;
+  }
+
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  header {
+    height: 200px;
+    background-color: indigo;
+  }
+  nav {
+    height: 80px;
+    background-color: darkblue;
+  }
+
+aside {
+  height: auto;
+  background-color: darkgray;
+}
+
+.article1, .article2, .article3 {
+  height: 200px;
+  background-color: deeppink;
+}
+
+.article4 {
+  height: 400px;
+  background-color: greenyellow;
+}
+
+footer {
+  height: 200px;
+  background-color: khaki;
+
+}
+  .logo, .badge {
+    background-color: chartreuse;
+  }
 }
