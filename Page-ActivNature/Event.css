@@ -24,4 +24,12 @@ footer {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  footer {
+    background-color: rgba(253, 231, 135, 0.562);
+    color: #030303;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
 }
