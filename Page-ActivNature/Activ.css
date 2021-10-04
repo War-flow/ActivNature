@@ -8,10 +8,31 @@ html {
   padding: 50px;
 }
 
-.image {
-  background-color: coral;
-  padding: 50px;
+.container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  align-content: flex-start;
+  height:100vh;
 }
+
+
+.block {
+  background: orange;
+  padding: 5px;
+  width: 200px;
+  margin: 5px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
 
 .header {
   background-color: rgba(253, 231, 135, 0.562);
