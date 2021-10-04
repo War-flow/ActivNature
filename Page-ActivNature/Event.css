@@ -1,24 +1,9 @@
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-  header {
-    height: 200px;
-    background-color: indigo;
-  }
-  nav {
-    width: 100%;
-  }
 
-.article {
-  height: 400px;
-  background-color: greenyellow;
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }
-  .logo, .badge {
-    background-color: chartreuse;
-  }
 
-}
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -33,19 +18,4 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  header {
-    height: 200px;
-    background-color: indigo;
-  }
-  nav {
-    width: 100%;
-  }
-
-.article {
-  height: 400px;
-  background-color: greenyellow;
-}
-  .logo, .badge {
-    background-color: chartreuse;
-  }
 }

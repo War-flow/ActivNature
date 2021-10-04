@@ -1,36 +1,20 @@
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-  header {
-    height: 200px;
-    background-color: indigo;
-  }
-aside {
-  height: auto;
-  background-color: darkgray;
+html {
+  font-family: 'Raleway', sans-serif;
 }
 
-.article1, .article2, .article3 {
-  height: 200px;
-  background-color: deeppink;
+.header {
+  background-color:#1E7C33;
+  color: #F5F6FA;
+  padding: 10px;
 }
 
-.article4 {
-  height: 400px;
-  background-color: greenyellow;
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }
 
-footer {
-  height: 200px;
-  background-color: khaki;
-
-}
-  .logo, .badge {
-    background-color: chartreuse;
-  }
-
-}
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -45,31 +29,4 @@ footer {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-  header {
-    height: 200px;
-    background-color: indigo;
-  }
-aside {
-  height: auto;
-  background-color: darkgray;
-}
-
-.article1, .article2, .article3 {
-  height: 200px;
-  background-color: deeppink;
-}
-
-.article4 {
-  height: 400px;
-  background-color: greenyellow;
-}
-
-footer {
-  height: 200px;
-  background-color: khaki;
-
-}
-  .logo, .badge {
-    background-color: chartreuse;
-  }
 }
