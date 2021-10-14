@@ -1,0 +1,101 @@
+
+html {
+  margin: auto;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: url('../Ressource/Nature.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.nav-link {
+font-size: 25px;
+color:white
+}
+
+.Acc {
+  height: 510px;
+  width: 100%;
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  background-color: rgba(255, 255, 224, 0.466);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.lien {
+  font-size: 32px;
+  color: rgb(255, 0, 221);
+}
+
+.image  { 
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 7px 7px lightgrey;
+}
+
+footer {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+footer > a {
+  color: white;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+
+  .lien {
+    font-size: 32px;
+    color: rgb(255, 0, 221);
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .center {
+    position: absolute;
+    background-color: rgba(255, 255, 224, 0.466);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: black;
+  }
+}
